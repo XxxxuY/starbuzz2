@@ -85,12 +85,20 @@ a:visited {
   top: 30px;
   left: 365px;
 }
-#coupon{
+.coupon{
   position: fixed;
   top: 350px;
   left: -90px;
 }
-#coupon a,img{
+.coupon a,img{
   border: none;
 }
+.coupon img{
+  display:none;
+  position:absolute;
+}
+.coupon:hover +.coupon img{
+  display:block;
+}
+
 
